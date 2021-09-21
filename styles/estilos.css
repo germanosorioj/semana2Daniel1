@@ -1,0 +1,71 @@
+
+p{
+    color:blue;
+}
+
+h2{
+    color:rgb(243, 128, 12);
+}
+
+/* Selector por Id */
+#p3{
+    font-weight: bold;
+    font-style: italic;
+}
+
+.destacado{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.pnegro{
+    color: black;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.fondoAmarillo{
+    background-color: yellow;
+}
+
+.imagenpequeña{
+    height: 100px;
+}
+
+.parrafoMediaPag{
+    width: 50%;
+}
+
+.contenedorConMargen{
+    margin: 10px 15px 10px 15px;
+    /* si se pone un solo valor lo aplica para todos */
+    /* margin: 10px; */
+    /* también se puede modificar uno específico */
+    /* margin-top: 10px; */
+    /* margin-left: 10px; */
+    border: red 1px solid;
+    padding: 10px;
+}
+
+.divTest{
+    border: 1px solid red;
+}
+
+.contenedorDivs{
+    border: 2px solid green;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 20px 30px 20px;
+    margin: 20px;
+}
+
+.contenedorDivsFlex{
+    border: green 2px solid;
+    display: flex;
+    height: 100px;
+    /* justify-content: center; */
+    /* Distribuir */
+    justify-content: space-around;
+    align-items: center;
+    /* align-items: flex-end; ubica los items abajo del contenedor*/
+    /* align-items: flex-start; ubica los items abajo del contenedor*/
+}
